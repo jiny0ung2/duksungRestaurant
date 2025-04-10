@@ -1,31 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
   <meta charset="UTF-8">
   <title>우이동주막집 - 상세 페이지</title>
+  <link rel="stylesheet" href="../style.css">
 </head>
 <body>
   <header>
-    <h1>🍖 우이동주막집</h1>
-    <p><a href="../index.html">← 돌아가기</a></p>
+    <h1>우이동주막집</h1>
+    <p><a href="../index.html">← 메인 페이지로 돌아가기</a></p>
   </header>
 
-  <main>
-    <img src="../media/place8.jpg" alt="우이동주막집 대표 이미지" width="300"><br>
-    <p><strong>주 메뉴:</strong> 족발, 보쌈</p>
-    <p><strong>평점:</strong> ⭐ 4.2 / 5.0</p>
-    <p><strong>주소:</strong> 서울특별시 강북구 삼양로141길 4-6 우이주막집</p>
-    <p><strong>한줄 소개:</strong> 부드럽고 맛있는 족발과 다양한 메뉴</p>
+  <main class="centered-content">
+    <section>
+      <h2>가게 정보</h2>
+      <table>
+        <tr><th>상호</th><td>우이동주막집</td></tr>
+        <tr><th>대표 이미지</th>
+          <td><img src="../media/place8.jpg" width="200" alt="우이동주막집 대표 이미지"></td>
+        </tr>
+        <tr><th>주 메뉴</th><td>족발, 보쌈</td></tr>
+        <tr><th>평점</th><td>⭐ 4.2 / 5.0</td></tr>
+        <tr><th>주소</th><td>서울특별시 강북구 삼양로141길 4-6 우이주막집</td></tr>
+        <tr><th>영업 시간</th><td>16:00 ~ 24:00</td></tr>
+        <tr><th>전화 번호</th><td>02-6789-3210</td></tr>
+        <tr><th>한줄 소개</th><td>부드럽고 맛있는 족발과 다양한 메뉴</td></tr>
+        <tr><th>출처</th>
+          <td><a href="https://www.diningcode.com/profile.php?rid=9mw4yVM7iDeO" target="_blank">다이닝코드 - 우이동주막집</a></td>
+        </tr>
+      </table>
+    </section>
+
     <section>
       <h2>지도 보기</h2>
-      <iframe src="https://naver.me/GOPeNbq0" width="100%" height="300" style="border:0;"></iframe>
+      <iframe 
+        src="https://www.google.com/maps?q=서울특별시+강북구+삼양로141길+4-6&output=embed" 
+        width="100%" height="300" style="border:0;">
+      </iframe>
     </section>
   </main>
-  <footer>
-    <hr>
-    <div>
-      <p>&copy; 진영이의 맛집 소개 페이지</p>
-    </div>
-  </footer>  
+
+  <footer class="footer">
+    <p>&copy; 진영이의 맛집 소개 페이지 | 이메일: <a href="mailto:cvls2791@naver.com">cvls2791@naver.com</a></p>
+  </footer>
 </body>
 </html>

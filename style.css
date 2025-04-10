@@ -1,0 +1,128 @@
+/* 기본 설정 */
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffaf2;
+    color: #4b2e2e;
+    line-height: 1.6;
+  }
+  
+  /* 헤더 */
+  header {
+    background-color: #ffe5d4;
+    color: #a04d4d;
+    padding: 30px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  
+  /* 내비게이션 */
+  nav {
+    background-color: #fff0e0;
+    padding: 15px;
+    border-bottom: 1px solid #f0c8b2;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #a04d4d;
+    font-weight: bold;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  /* 마우스 커서가 닿을 시 색 전환 */
+  nav a:hover {
+    color: lightcoral;
+  }
+  
+  /* 본문 섹션 */
+  section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+    border-bottom: 1px dashed #f3d5c0;
+  }
+  
+  h2 {
+    color: #cd5c5c;
+    margin-bottom: 20px;
+  }
+/* 글자 가운데 정렬 */
+  h3 {
+    text-align: center;
+  }
+  
+  /* 표 (테이블) */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    margin-top: 20px;
+  }
+  
+  thead th {
+    background-color: #ffe5d4;
+    color: #5a3737;
+    padding: 10px;
+    border-bottom: 2px solid #e0bfa0;
+  }
+  
+  tbody td {
+    padding: 10px;
+    border: 1px solid #f0d5c5;
+    text-align: center;
+  }
+  
+  /* 마우스 커서가 닿을 시 배경 색 전환 */
+  tbody tr:hover {
+    background-color: #fff2ea;
+  }
+  
+  /* 이미지 */
+  table img {
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+  }
+  
+  table img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* 푸터 (비고정형) */
+  .footer {
+    background-color: #ffe5d4;
+    color: #4b2e2e;
+    text-align: center;
+    padding: 6px 12px;
+    font-size: 13px;
+    border-top: 1px solid #f0c8b2;
+    box-shadow: 0 -1px 3px rgba(0,0,0,0.05);
+  }
+  
+  /* 반응형 설정 */
+  @media screen and (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    table img {
+      width: 80px;
+      height: auto;
+    }
+  
+    section {
+      padding: 20px;
+    }
+  }
+  

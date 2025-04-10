@@ -1,31 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
   <meta charset="UTF-8">
   <title>예와 손만두 - 상세 페이지</title>
+  <link rel="stylesheet" href="../style.css">
 </head>
 <body>
   <header>
-    <h1>🥟 예와 손만두</h1>
-    <p><a href="../index.html">← 돌아가기</a></p>
+    <h1>예와 손만두</h1>
+    <p><a href="../index.html">← 메인 페이지로 돌아가기</a></p>
   </header>
 
-  <main>
-    <img src="../media/place6.jpg" alt="예와 손만두 대표 이미지" width="300"><br>
-    <p><strong>주 메뉴:</strong> 만두, 만두 전골</p>
-    <p><strong>평점:</strong> ⭐ 4.6 / 5.0</p>
-    <p><strong>주소:</strong> 서울특별시 강북구 4.19로 40-8 예와손만두</p>
-    <p><strong>한줄 소개:</strong> 맛있는 만두피와 다양한 음식의 향연</p>
+  <main class="centered-content">
+    <section>
+      <h2>가게 정보</h2>
+      <table>
+        <tr><th>상호</th><td>예와 손만두</td></tr>
+        <tr><th>대표 이미지</th>
+          <td><img src="../media/place6.jpg" width="200" alt="예와 손만두 대표 이미지"></td>
+        </tr>
+        <tr><th>주 메뉴</th><td>만두, 만두 전골</td></tr>
+        <tr><th>평점</th><td>⭐ 4.6 / 5.0</td></tr>
+        <tr><th>주소</th><td>서울특별시 강북구 4.19로 40-8 예와손만두</td></tr>
+        <tr><th>영업 시간</th><td>11:00 ~ 21:30</td></tr>
+        <tr><th>전화 번호</th><td>02-5678-9012</td></tr>
+        <tr><th>한줄 소개</th><td>맛있는 만두피와 다양한 음식의 향연</td></tr>
+        <tr><th>출처</th>
+          <td><a href="https://www.diningcode.com/profile.php?rid=BLesID6qpiwi" target="_blank">다이닝코드 - 예와손만두</a></td>
+        </tr>
+      </table>
+    </section>
+
     <section>
       <h2>지도 보기</h2>
-      <iframe src="https://naver.me/xmxIs4kx" width="100%" height="300" style="border:0;"></iframe>
+      <iframe 
+        src="https://www.google.com/maps?q=서울특별시+강북구+4.19로+40-8&output=embed" 
+        width="100%" height="300" style="border:0;">
+      </iframe>
     </section>
   </main>
-  <footer>
-    <hr>
-    <div>
-      <p>&copy; 진영이의 맛집 소개 페이지</p>
-    </div>
-  </footer>  
+
+  <footer class="footer">
+    <p>&copy; 진영이의 맛집 소개 페이지 | 이메일: <a href="mailto:cvls2791@naver.com">cvls2791@naver.com</a></p>
+  </footer>
 </body>
 </html>
